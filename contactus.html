@@ -1,0 +1,152 @@
+<!--Contact us-->
+
+<html>
+        
+        <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <link rel="stylesheet" href="css/contact.css" />
+          <script src="js/script.js"></script>
+          <title>Home</title>
+        </head>
+  <body>
+    <div class="navigationbar">
+      <!-- LOGO -->
+      <img src="images/logo/logo.png" class="logo">
+      <div class="navbar">
+          <nav>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+              <!-- USING CHECKBOX HACK -->
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+              <!-- NAVIGATION MENUS -->
+              <div class="menu">
+                <li><a href="/">Home</a></li>
+                <li class="services">
+                    <a href="/">About Us</a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="dropdown">
+                      <li><a href="/">About University</a></li>
+                      <li><a href="/">Vision and Mission</a></li>
+                      <li><a href="/">Founder President</a></li>
+                    </ul>
+                  </li>
+                <li class="services">
+                  <a href="/">Academics</a>
+                  <!-- DROPDOWN MENU -->
+                  <ul class="dropdown">
+                    <li><a href="/">Primary School</a></li>
+                    <li><a href="/">Secondary School</a></li>
+                    <li><a href="/">Junior College</a></li>
+                  </ul>
+                </li>
+                <li class="services">
+                    <a href="/">Admission</a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="dropdown">
+                      <li><a href="/">Admission Process</a></li>
+                      <li><a href="/">Apply Online</a></li>
+                      <li><a href="/">Fees Structure</a></li>
+                      <li><a href="/">Pay Fees Online</a></li>
+                    </ul>
+                  </li>
+                <li><a href="/">Gallery</a></li>
+                <li><a href="/">Contact Us</a></li>
+              </div>
+            </ul>
+           </nav>
+      </div>
+    </div>
+
+    <div id="contact_div_1">
+        <p>Contact Us</p>
+        <text class="contact_div_1_text">We are here to help you</text>
+        
+    </div>
+    <form action="connect1.php" method="post">
+    <div class="contact_row">
+        <div class="contact_col_1" >
+          <h2>Request Admission Info</h2>
+          <p>We are here to help and guide you through each and every step</p>
+          <br>
+        <input type="text" id="name"  placeholder="Enter your Full Name" name="Name">
+        <br><br>
+        <input type="text" id="name"  placeholder="Enter your e-mail" name="email">
+        <br><br>
+
+        <select id="name" name="class" >
+          <option selected>Select a Class</option>
+          <option value="1st">1st</option>
+          <option value="2nd">2nd</option>
+          <option value="3rd">3rd</option>
+          <option value="4th">4th</option>
+          <option value="5th">5th</option>
+          <option value="6th">6th</option>
+          <option value="7th">7th</option>
+          <option value="8th">8th</option>
+          <option value="9th">9th</option>
+          <option value="10th">10th</option>
+          <option value="11th Arts">11th Arts</option>
+          <option value="11th Science">11th Science</option>
+          <option value="11th Commerce">11th Commerce</option>
+          <option value="12th Arts">12th Arts</option>
+          <option value="12th Science">12th Science</option>
+          <option value="12th Commerce">12th Commerce</option>
+        </select>
+        <br><br>
+        <textarea id="name" name="message" placeholder="Message" style="height: 150px;"></textarea>
+        <br><br>
+        <button class="contact_form_button">Submit</button> 
+        </div>
+        <div class="contact_col_1" >
+          <img src="images/image/contactus.png" class="contact_img">
+          <br>
+          <p class="contact_text">Welcome to Gurukul. We strive to provide highest quality education, bridging your child's success with infrastructure of knowledge and creativity.Our academics is designed in such a way that it brings out the hidden talent of your child.</p>
+        </div>
+      </div>
+
+
+
+      <div class="footer_main_1">
+        <div class="footer_row">
+            <div class="footer_col">
+              <div class = "vertical">
+                <text>GURUKUL</text></div>
+              <p class="footer_desc">The main purpose of Gurukul is learning for everyone.Education is the most powerful weapon in today's world.We want everyone to master it.Don't stress out,Do your best!</p>
+            </div>
+            <div class="footer_col" >
+              <div class = "vertical_1">
+                <text>FOLLOW US ON</text></div>
+                <p class="footer_desc_1"><img src="images/image/social-facebook.png" class="social_icons"> &nbsp; <img src="images/image/social-twitter.png" class="social_icons"> &nbsp; <img src="images/image/social-youtube.png" class="social_icons">  <br><br>  <img src="images/image/social-instagram.png" class="social_icons">  &nbsp; <img src="images/image/social-email.png" class="social_icons"> &nbsp; <img src="images/image/social-pinterest.png" class="social_icons"></p>
+     
+            </div>
+            <div class="footer_col">
+              <div class = "vertical_2">
+                <text>LINKS LIST</text></div>
+                 <p class="footer_desc">Home</p>
+                 <p class="footer_desc_2">Admission</p> 
+                 <p class="footer_desc_2">Gallery</p>
+                 <p class="footer_desc_2">Contact Us</p>
+                 <p class="footer_desc_2">About Us</p>
+            </div>
+    
+            <div class="footer_col" >
+              <div class = "vertical_3">
+                <text>ADDRESS</text></div>
+                <p class="footer_desc_3">
+                  123, Gulmohor Road,Behind Datta Mandir,Kondhwa,Pune-411005</p>
+    
+                  <div class = "vertical_4">
+                    <text>CONTACT/EMAIL US </text></div>
+                    <p class="footer_desc_4">+91 98765 43210</p>
+                    <p class="footer_desc_5">gurukul@gmail.com</p>
+                  
+            </div>     
+        </div>
+    
+ </div>
+ </form>
+</body>
+</html>

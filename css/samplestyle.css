@@ -1,0 +1,624 @@
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: 'roboto';
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+
+/* HOMPAGE */
+/* NAVBAR STYLING STARTS 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    color: black;
+    float: right;
+   }
+   .nav-links a {
+    color: black;
+   }
+   /* LOGO 
+   .logo{
+    height: 150px;
+    width: 150px;
+    float: left;
+    padding: 10px;
+   }
+   /* NAVBAR MENU 
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color: #FEFCE6;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+   /* DROPDOWN MENU 
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: white;
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #FEFCE6;
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+
+/*RESPONSIVE NAVBAR MENU STARTS
+/* CHECKBOX HACK 
+input[type=checkbox]{
+    display: none;
+   } 
+   /*HAMBURGER MENU
+   .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+   }
+   /* APPLYING MEDIA QUERIES 
+   @media (max-width: 768px) {
+   .menu { 
+    display:none;
+    position: absolute;
+    background-color:white;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+   }
+   .menu li:hover {
+    display: inline-block;
+    background-color:#FEFCE6;
+    transition: 0.3s ease;
+   }
+   .menu li + li {
+    margin-top: 12px;
+   }
+   input[type=checkbox]:checked ~ .menu{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+   }
+   .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+   }
+   .dropdown li:hover {
+    background-color: #FEFCE6;
+   }
+   }
+/* NAVBAR STYLING ENDS */
+.hp_div_1 {
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+  }
+
+
+/*CARDS*/
+/* Float four columns side by side */
+
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row1 {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: -150px;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  height: 300px;
+}
+.card1 img{
+  float: left;
+  margin-top: 180px;
+}
+/*CARDS ENDS*/
+
+
+/* STYLING FOR DIV 2 STARTS HERE */
+  .hp_div_2 {
+    height: 1500px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+  }
+  .hp_div_2_h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    padding-top: 200px;
+  }
+  .hp_div_2 p{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 40px;
+  }
+  #panel1, #flip1,#panel2, #flip2,#panel3, #flip3 {
+    padding: 50px;
+    margin-left: 150px;
+    margin-right: 150px;  
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+  }
+
+  #panel1,#panel2,#panel3 {
+    padding: 50px;
+    display: none;
+  }
+  #flip1 img{
+    height: 100px;
+    width: 100px;
+    float: left;
+  }
+  #flip2 img{
+    height: 100px;
+    width: 100px;
+    float: left;
+  }
+  #flip3 img{
+    height: 100px;
+    width: 100px;
+    float: left;
+  }
+
+/* STYLING FOR DIV 2 ENDS HERE */
+/* STYLING FOR DIV 3 STARTS HERE */
+  .hp_div_3 {
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+  }
+  .hp_div_3 img{
+   margin-top: 100px;
+   margin-left: 450px;
+   float: left;
+   height: 500px;
+   width: 450px;
+  }
+  .hp_div_3 h2{
+    color: #beebd4;
+    float: right ;
+    margin-right: 600px;
+    margin-top: 100px;
+    font-size: 35px;
+  }
+  .hp_div_3 h1{
+    float: right ;
+    margin-right: 200px;
+    margin-top: 10px;
+    font-size: 60px;
+    font-weight: 900;
+  }
+  .hp_div_3 p{
+    font-family: roboto;
+      font-size: 30px;
+      font-weight: 100;
+      float: right;
+      margin-top: 20px;
+      margin-right: 220px;
+    }
+    .hp_div_3_hr{
+      border-color: #DDF7EA;
+      width: 150px;
+      margin-top: 160px;
+      background-color:#DDF7EA;
+      height: 6px;
+      margin-left: 100px;
+      }
+      
+/* Create two equal columns that floats next to each other */
+.hp_div_3_col {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.hp_div_3_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .hp_div_3_col {
+    width: 100%;
+  }
+}
+
+    hr.divider{
+    border-top: 3px dashed #bbb;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -50px; 
+    }
+
+/* STYLING FOR DIV 3 ENDS HERE */
+
+  .hp_div_4 h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+    padding-top: 50px;
+    color: black;
+  }
+  .hp_div_4_hr{
+    border-color: #FF676D;
+    width: 350px;
+    margin-top:20px;
+    margin-left: 170px;
+    background-color: #FF676D;
+    height: 6px;
+    }
+  .hp_div_4 {
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container{
+    margin-left: 250px;
+    max-width: 1300px;
+    width: 100%;
+    overflow: hidden;
+    padding: 80px 0;
+  }
+  .container .main-card{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200%;
+    transition: 1s;
+  }
+  #two:checked ~ .main-card{
+    margin-left: -100%;
+  }
+  .container .main-card .cards{
+    width: calc(100% / 2 - 10px);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    justify-content: space-between;
+  }
+  .main-card .cards .card{
+    width: calc(100% / 3 - 10px);
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease;
+    height: 330px;
+    width: 400px;
+  }
+  .main-card .cards .card:hover{
+    transform: translateY(-15px);
+  }
+  .cards .card .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .cards .card .content .img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #FF676D;
+    margin-bottom: 14px;
+  }
+  .card .content .img img{
+    height: 100%;
+    width: 100%;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .card .content .name{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .card .content .job{
+    font-size: 20px;
+    color: #FF676D;
+  }
+  .card .content .media-icons{
+    margin-top: 10px;
+    display: flex;
+  
+  }
+  .media-icons a{
+    text-align: center;
+    line-height: 33px;
+    height: 35px;
+    width: 35px;
+    margin: 0 4px;
+    font-size: 14px;
+    color: #FFF;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background: #FF676D;
+    transition: all 0.3s ease;
+  }
+  .media-icons a:hover{
+    color: #FF676D;
+    background-color: #fff;
+    border-color: #FF676D;
+  }
+   .container .button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  .button label{
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+    background: #FF676D;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .button label.active{
+    width: 35px;
+  }
+  #one:checked ~ .button .one{
+    width: 35px;
+  }
+  #one:checked ~ .button .two{
+    width: 15px;
+  }
+  #two:checked ~ .button .one{
+    width: 15px;
+  }
+  #two:checked ~ .button .two{
+    width: 35px;
+  }
+  input[type="radio"]{
+    display: none;
+  }
+  @media (max-width: 768px) {
+    .main-card .cards .card{
+      margin: 20px 0 10px 0;
+      width: calc(100% / 2 - 10px);
+    }
+  }
+  @media (max-width: 600px) {
+    .main-card .cards .card{
+      /* margin: 20px 0 10px 0; */
+      width: 100%;
+    }
+  }
+  
+
+
+/* STYLING FOR DIV 5 STARTS HERE */
+  .hp_div_5 {
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+  }
+  .hp_div_5 h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+    padding-top: 100px;
+    color: white;
+  }
+  .hp_div_5 p{
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    float: left;
+    padding-top: 40px;
+    margin-left: 150px;
+    }
+/* Create two equal columns that floats next to each other */
+.hp_div_5_col {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.hp_div_5_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .hp_div_5_col {
+    width: 100%;
+  }
+}
+.hp_div_5_button {
+  display: inline-block;
+  border-radius: 100px;
+  background-color: #283730;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 50px;
+  margin-left: 150px;
+}
+
+.hp_div_5_button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.hp_div_5_button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.hp_div_5_button:hover span {
+  padding-right: 25px;
+}
+
+.hp_div_5_button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.hp_div_5_hr{
+border-color: white;
+width: 250px;
+margin-top:20px;
+margin-left: 170px;
+background-color: white;
+height: 6px;
+}
+  
+/* STYLING FOR DIV 5 ENDS HERE */
+
+  .hp_div_6 {
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+  }
+  .hp_div_7 {
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+  }
+
+  /*NAV BAR STARTS*/
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+/*NAVBAR ENDS*/  
